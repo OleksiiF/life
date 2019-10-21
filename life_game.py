@@ -1,4 +1,5 @@
 import json
+import os
 import time
 
 
@@ -97,6 +98,8 @@ class Life:
                 else:
                     print(' ', end='')
             print(end='\n')
+
+        tmp = os.system('cls') if os.name == 'nt' else os.system('clear')
 
     def _end_game(self) -> bool:
         result = False

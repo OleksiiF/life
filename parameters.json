@@ -2,12 +2,12 @@
   "live_cell": "X",
   "lifeless_cell": "O",
   "generations_quantity": 1000,
-  "field_length": 20,
-  "field_width": 20,
+  "field_length": 30,
+  "field_width": 30,
   "first_generation": [
-    ["O", "O", "O", "O", "O", "O"],
-    ["O", "O", "O", "O", "O", "X"],
-    ["O", "O", "O", "X", "O", "X"],
-    ["O", "O", "O", "O", "X", "X", "O", "O"]
+    ["X", "O", "O", "O", "O", "O"],
+    ["O", "X", "X", "O","O", "O", "X"],
+    ["X", "X", "O", "O","X", "O", "X"],
+    ["O", "O", "O", "O","O", "X", "X", "O", "O"]
   ]
 }
